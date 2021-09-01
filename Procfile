@@ -1,1 +1,1 @@
-web: sh setup.sh && streamlit run BACKTEST OPTION.py
+web: sh setup.sh && streamlit run 1.py
