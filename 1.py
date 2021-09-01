@@ -38,7 +38,7 @@ st.write('You selected this :', file1)
 
 
 n= 'https://github.com/emailatmukesh/Backtest-your-hedging-strategies/tree/main/may%20to%20july/'
-l=file1.replace(' ','%')
+l=file1.replace(' ','%20')
 m="/1"
 PATH= n+l+m
 st.write(PATH)
