@@ -46,6 +46,8 @@ st.write(PATH)
 #PATH =r'C:\Users\mukesh\Music\JAN to apr data\Expiry 16th January\CSV 30-12-19 to 16-01-20 (Expiry Day)'
 filenames = glob.glob(PATH + "/*.csv")
 
+
+st.write(filenames)
 #################################
 #######################################################################
 
