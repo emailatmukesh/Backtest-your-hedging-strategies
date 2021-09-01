@@ -37,9 +37,9 @@ file1 = st.selectbox('Select date of expiry of BANKNIFTY WEEKLY CONTRACTS',file0
 st.write('You selected this :', file1)
 
 
-n= 'may to july\\'
-l=file1
-m="\\1"
+n= 'https://github.com/emailatmukesh/Backtest-your-hedging-strategies/tree/main/may%20to%20july/'
+l=file1.replace(' ','%')
+m="/1"
 PATH= n+l+m
 print(PATH)
 #PATH=r'v'
