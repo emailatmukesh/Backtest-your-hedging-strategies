@@ -37,7 +37,7 @@ file1 = st.selectbox('Select date of expiry of BANKNIFTY WEEKLY CONTRACTS',file0
 st.write('You selected this :', file1)
 
 
-n= 'C:\\Users\\mukesh\\Music\\may to july\\'
+n= 'may to july\\'
 l=file1
 m="\\1"
 PATH= n+l+m
