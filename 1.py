@@ -38,14 +38,17 @@ st.write('You selected this :', file1)
 
 
 
-n= 'may to july\\'
+n= '/may to july/'
 l=file1
-m="\\1"
-PATH= n+l+m
+m="/1/"
+g="*.csv"
+PATH= n+l+m+g
 print(PATH)
 #PATH=r'v'
 #PATH =r'C:\Users\mukesh\Music\JAN to apr data\Expiry 16th January\CSV 30-12-19 to 16-01-20 (Expiry Day)'
-filenames = glob.glob(PATH + "/*.csv")
+#filenames = glob.glob(PATH + "/*.csv")
+
+filenames = glob.glob(PATH)
 
 
 st.write(filenames)
