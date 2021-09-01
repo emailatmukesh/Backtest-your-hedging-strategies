@@ -41,7 +41,7 @@ n= 'https://github.com/emailatmukesh/Backtest-your-hedging-strategies/tree/main/
 l=file1.replace(' ','%')
 m="/1"
 PATH= n+l+m
-print(PATH)
+st.write(PATH)
 #PATH=r'v'
 #PATH =r'C:\Users\mukesh\Music\JAN to apr data\Expiry 16th January\CSV 30-12-19 to 16-01-20 (Expiry Day)'
 filenames = glob.glob(PATH + "/*.csv")
